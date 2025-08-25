@@ -118,19 +118,19 @@ Movie_Recommendation_System/
 
 #### Clone this repository:
 
-git clone https://github.com/lybuida/Movie_Recommendation_System.git
+- git clone https://github.com/lybuida/Movie_Recommendation_System.git
 
-cd Movie_Recommendation_System
+- cd Movie_Recommendation_System
 
 
 #### Install dependencies:
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 
 #### Run Jupyter Notebook:
 
-jupyter notebook Movie_Recommendation_System.ipynb
+- jupyter notebook Movie_Recommendation_System.ipynb
 
 ---
 
