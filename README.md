@@ -136,11 +136,11 @@ Movie_Recommendation_System/
 
 ### 👨‍💻 Authors
 
-Bùi Dạ Lý – Data Preprocessing, Visualization, Model Implementation
+Bùi Dạ Lý 
 
-Huỳnh Lệ Giang – Collaborative Filtering, Evaluation
+Huỳnh Lệ Giang
 
-Võ Thị Ngọc Chi – Content-Based Model, Documentation
+Võ Thị Ngọc Chi
 
 ---
 
