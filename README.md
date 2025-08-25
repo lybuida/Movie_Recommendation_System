@@ -23,11 +23,11 @@ Explore preprocessing, visualization, and model evaluation for recommender syste
 
 Compare different algorithms:
 
-Content-Based Filtering (CBF)
+- Content-Based Filtering (CBF)
 
-User-User Collaborative Filtering (UCF)
+- User-User Collaborative Filtering (UCF)
 
-Item-Item Collaborative Filtering (ICF)
+- Item-Item Collaborative Filtering (ICF)
 
 ---
 
@@ -37,9 +37,9 @@ Source: MovieLens ml-latest-small
 
 Files used:
 
-movies.csv → 9,743 movies (ID, title, genres).
+- movies.csv → 9,743 movies (ID, title, genres).
 
-ratings.csv → 100,837 ratings (610 users, 1–5 scale).
+- ratings.csv → 100,837 ratings (610 users, 1–5 scale).
 
 ---
 
@@ -70,27 +70,27 @@ Popular movies tend to have higher average ratings.
 ### 🤖 Models Implemented
 1. Content-Based Filtering (CBF)
 
-Uses TF-IDF vectorization of genres.
+- Uses TF-IDF vectorization of genres.
 
-Predict ratings with Ridge Regression.
+- Predict ratings with Ridge Regression.
 
-RMSE = 0.9119
+- RMSE = 0.9119
 
 2. User-User Collaborative Filtering (UCF)
 
-Builds a user-user similarity matrix using Cosine Similarity.
+- Builds a user-user similarity matrix using Cosine Similarity.
 
-Predicts ratings from k-nearest neighbors.
+- Predicts ratings from k-nearest neighbors.
 
-RMSE = 0.1021 (best performance)
+- RMSE = 0.1021 (best performance)
 
 3. Item-Item Collaborative Filtering (ICF)
 
-Builds an item similarity matrix.
+- Builds an item similarity matrix.
 
-Recommends movies similar to user’s history.
+- Recommends movies similar to user’s history.
 
-RMSE = 0.3893
+- RMSE = 0.3893
 
 
 ### 📈 Evaluation
@@ -116,18 +116,18 @@ Movie_Recommendation_System/
 
 ### 🚀 How to Run
 
-## Clone this repository:
+#### Clone this repository:
 
 git clone https://github.com/lybuida/Movie_Recommendation_System.git
 cd Movie_Recommendation_System
 
 
-Install dependencies:
+#### Install dependencies:
 
 pip install -r requirements.txt
 
 
-Run Jupyter Notebook:
+#### Run Jupyter Notebook:
 
 jupyter notebook Movie_Recommendation_System.ipynb
 
